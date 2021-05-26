@@ -168,7 +168,11 @@ jQuery(document).ready(function () {
         jQuery('.navbar .dropdown > a').click(function () {
             location.href = this.href;
         });
+		
     }
+	jQuery('#categories a').click(function () {
+            location.href = this.href;
+        });
 
 });
 
